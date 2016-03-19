@@ -1,0 +1,50 @@
+var ouvre = 0;
+$(document).ready(function(){
+    $("#LogoMenu").click(function(){
+        if(ouvre==0)
+        {  
+            Menu(ouvre);
+            ouvre=1;
+        }
+        else
+            {
+                Menu(ouvre);
+                ouvre=0;
+            }
+    })
+    $("#Coeur").click(function(){
+        if(ouvre==1)
+            {
+                Menu(ouvre);
+                ouvre=0;
+            }
+    })
+});
+
+function Menu(ouvre)
+{
+    if(ouvre==0)
+    {
+        console.log(ouvre.toString());
+        //$("#menu").delay(0).animate({'background-position':'0px'},300);
+        $("#menu").delay(0).animate({'left':'0px'},400);
+        $("#page_1").delay(100).animate({'left':"0px"},300);
+        $("#page_2").delay(140).animate({'left':"0px"},300);
+        $("#page_3").delay(180).animate({'left':"0px"},300);
+        $("#page_4").delay(220).animate({'left':"0px"},300);
+        $("#page_5").delay(260).animate({'left':"0px"},300);
+        $("#page_6").delay(300).animate({'left':"0px"},300);
+    }
+    else if(ouvre==1)
+    {
+        console.log(ouvre.toString());
+        $("#page_1").delay(0).animate({'left':"-202px"},300);
+        $("#page_2").delay(40).animate({'left':"-202px"},300);
+        $("#page_3").delay(80).animate({'left':"-202px"},300);
+        $("#page_4").delay(120).animate({'left':"-202px"},300);
+        $("#page_5").delay(160).animate({'left':"-202px"},300);
+        $("#page_6").delay(200).animate({'left':"-202px"},300);
+        $("#menu").delay(200).animate({'left':'-202px'},400);
+        //$("#menu").delay(280).animate({'background-position':'-202px'},400);
+    }
+}

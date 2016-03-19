@@ -1,0 +1,126 @@
+/*HEADER mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+header
+{
+    height: 170px;
+    background-color: white;
+}
+#Logo
+{
+    width: 160px;
+    position: relative;
+    /*top: -82px;*/
+    top: 0px;
+}
+#Animation
+{
+    width: 420px;
+    height: 170px;
+    position:relative;
+    top: -181px;
+    left: 0px;
+}
+
+/*NAV  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+nav
+{
+    height: 40px;
+    background-color: #27D3F5;
+}
+#LogoMenu
+{
+    height: 32px;
+    opacity: 0.75;
+    position: relative;
+    top: 4px;
+    left: 30px;
+    cursor: pointer;
+}
+#LogoMenu:hover
+{
+    opacity: 1;
+    
+}
+/*SECTION mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+#Coeur
+{
+    height: 590px;
+    width: auto;
+    background-color: white;
+}
+.titres
+{
+    font-size: 17px;
+    font-style: normal;
+    color: black;
+}
+
+#car
+{
+    position: absolute;
+    max-width: 870px;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+}
+.paragraphes
+{
+    font-family: Calibri;
+    color: rgb(0, 0, 0);
+    background-color: rgba(111, 212, 255, 0.47);
+    padding: 10px;
+    border-radius: 4px;
+    position:relative;
+    top: -280px;
+    
+}
+#contenu
+{
+    max-width: 900px;
+    position: relative;
+    top: 80px;
+}
+
+/*@media screen and (min-width:1000px)
+{
+    #car
+    {
+        position: absolute;
+        max-width: 1000px;
+        margin: auto;
+        left: 0%;
+        right: 0%;
+    }
+}*/
+/*FOOTER mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+/*MENU  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+#menu
+{
+    position: relative;
+    left: -202px;
+    top: 0px;
+    width: 202px;
+    height: 490px;
+    background-image: url(Images_et_Animations/Images/ArrierePlanMenu.png);
+    background-repeat: no-repeat;
+    background-position: -0px 0px ;
+    z-index: 10;
+}
+.ToutPages
+{
+    height: 71.25px;
+    
+    position: relative;
+    top: 0px;
+    left: -202px;
+    margin-top: 0px;
+    padding: 20px;
+    font-family: Calibri;
+    font-size: 20px;
+    color: white;
+}
+.ToutPages:hover{
+    cursor: pointer;
+    /*background-color: aliceblue,0.5;*/
+    background-color: rgba(255, 255, 255, 0.1);
+}
